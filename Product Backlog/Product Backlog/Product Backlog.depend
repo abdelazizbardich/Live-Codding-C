@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1610983919 source:/home/abdelaziz/Github_Directory/Live-Codding-C/Product Backlog/Product Backlog/main.c
+	<stdio.h>
+	<stdlib.h>
+	"functions.c"
+
+1610984025 /home/abdelaziz/Github_Directory/Live-Codding-C/Product Backlog/Product Backlog/functions.c
+	<stdio.h>
+	<stdlib.h>
+
