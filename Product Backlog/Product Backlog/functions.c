@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int getSize(){
- int a;
+    int a;
     printf("Enter la taill du tableau:\n");
     scanf("%d",&a);
     return a;
 }
 
 int getValue(){
- int a;
+    int a;
     printf("Enter valeur du range:\n");
     scanf("%d",&a);
     return a;
@@ -17,7 +18,7 @@ int getValue(){
 
 // get Random int
 int getRandomInt(int start,int end){
-          return rand() %(end-start)+start;
+    return rand() %(end-start)+start;
 }
 
 void initArray(int tab[],int size){
@@ -33,3 +34,19 @@ void afficher(int arr[],int size){
         printf("tableau[%d] = %d\n",i,arr[i]);
     }
 }
+
+
+
+
+void removeDuplicationNumberinArray(int size,int arr[]){
+int j,k;
+for(int i = 0; i < size; i++)
+
+
+
+
+}
+
+
+
+

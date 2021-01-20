@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "functions.c"
 
+
 int main()
 {
     int Size = getSize();
@@ -9,4 +10,5 @@ int main()
 
     initArray(arr,Size);
     afficher(arr,Size);
+    removeDuplicationNumberinArray(Size,arr);
 }
